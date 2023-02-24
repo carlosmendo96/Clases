@@ -13,3 +13,9 @@ for i in range(n):
 for i in matriz:
     print(i, end=' ')
     print()
+
+    def matriz():
+        a = 0
+        for i in range(n):
+            a += arr[i][i] - arr[(n - 1) - i][i]
+            return abs(a)
