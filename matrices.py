@@ -8,7 +8,7 @@ matriz = []
 for i in range(n):
     matriz.append([])
     for j in range(m):
-        valor = int(input(f'Introduce el valor {i}, {j} de tu matriz \n'))
+        valor = int(input(f'Introduce el valor {i+1}, {j+1} de tu matriz \n'))
         matriz[i].append(valor)
 
 for i in matriz:
