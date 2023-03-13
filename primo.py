@@ -7,4 +7,4 @@ def numero_primo(n):
 
     print(f'{n} un número primo, {primo} ')
 
-numero_primo(8)
+numero_primo(55725242578753554)
