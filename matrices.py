@@ -13,4 +13,3 @@ for i in range(n):
 
 for i in matriz:
     print(i, end=' ')
-    print()
